@@ -3406,12 +3406,12 @@ function showVersionUpgradePrompt(info, oldVersion, newVersion) {
 
 	// Build contextual message based on install vs upgrade
 	const title = isInstall
-		? '🎉 Thank you for installing WLED!'
-		: '🎉 WLED Upgrade Detected!';
+		? '🎉 Thank you for installing TechBoost WLED!'
+		: '🎉 TechBoost WLED Upgrade Detected!';
 
 	const description = isInstall
-		? `You are now running WLED <strong style="text-wrap: nowrap">${newVersion}</strong>.`
-		: `Your WLED has been upgraded from <strong style="text-wrap: nowrap">${oldVersion}</strong> to <strong style="text-wrap: nowrap">${newVersion}</strong>.`;
+		? `You are now running TechBoost WLED <strong style="text-wrap: nowrap">${newVersion}</strong>.`
+		: `Your TechBoost WLED has been upgraded from <strong style="text-wrap: nowrap">${oldVersion}</strong> to <strong style="text-wrap: nowrap">${newVersion}</strong>.`;
 
 	const question = 'Help make WLED better by sharing hardware details like chip type and LED count? This helps us understand how WLED is used and prioritize features — we never collect personal data or your activities.'
 
